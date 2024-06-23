@@ -1,8 +1,16 @@
 body
 {
+  font-family: 'Chirp',sans-serif;
   color: white;
   background-color: #000000;
   min-height: 100vh;
 display: grid;
 place-content: center;
+}
+@font-face {
+  font-family: 'Chirp';
+  src: url('./fonts/Chirp-Bold.ttf') format('truetype'),
+      
+  /* Add additional font formats if necessary */
+  /* Specify the correct path to the font files */
 }

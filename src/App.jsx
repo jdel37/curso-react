@@ -6,7 +6,9 @@ function App() {
 
   return (
     <>
-    <div className='border-2 border-slate-500 py-[20px] px-[15px] rounded-md bg-[#000000] flex flex-col gap-[16px]'>
+    
+  <div className='border-[1px] m-[10px] border-slate-500 rounded-xl  py-[20px] bg-[#000000] flex flex-col'>
+   <h1 className=' font-bold text-[25px] ml-[30px]'>Who to Follow</h1>
     <Card  userName="hotdog" name="chantre"/>
     <Card  userName="ariana grande" name="chantre"/>
     <Card  userName="lco" name="chantre"/>
