@@ -15,7 +15,7 @@ place-content: center;
   /* Specify the correct path to the font files */
 }
 .active{
-  @apply z-10 box-border bg-white  cursor-pointer m-auto text-black text-[15px] text-center font-bold py-1 h-[30px] px-[30px] rounded-full ml-[16px];
+  @apply z-10 box-border bg-white  cursor-pointer m-auto text-black text-[15px] text-center font-bold py-1 h-[30px] px-[30px] rounded-full ml-[1px];
 }
 .active:hover
 {

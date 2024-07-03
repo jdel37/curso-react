@@ -18,9 +18,9 @@ function Card({userName,name,isFollowing})
 <>
          
             
- <article className='flex justify-between w-[29em] text-[15px] py-[20px] px-[30px] hover:bg-[#070707] '>
+ <article className='flex justify-between w-[25em] text-[1em] py-[20px] px-[30px] hover:bg-[#070707] '>
 
-<header className='flex align-center gap-[10px]'>
+<header className='flex align-center gap-[1em]'>
 <img class="m-auto rounded-full object-cover w-[48px] h-[48px]" src={`https://unavatar.io/${userName}`} />
 <div className='flex flex-col '>
     <div className='flex flex-row content-center'>
