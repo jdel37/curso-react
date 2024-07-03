@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Albert Einstein",
+        "username": "GeniusEinstein",
+        "isFollowing": true
+    },
+    {
+        "name": "Leonardo da Vinci",
+        "username": "ArtisticInventor",
+        "isFollowing": false
+    },
+    {
+        "name": "Martin Luther King Jr.",
+        "username": "DreamChaserMLK",
+        "isFollowing": true
+    },
+    {
+        "name": "Nelson Mandela",
+        "username": "FreedomMandela",
+        "isFollowing": false
+    },
+    {
+        "name": "Mahatma Gandhi",
+        "username": "PeacefulGandhi",
+        "isFollowing": true
+    },
+    {
+        "name": "Mother Teresa",
+        "username": "KindHeartTeresa",
+        "isFollowing": false
+    },
+    {
+        "name": "Abraham Lincoln",
+        "username": "HonestAbe1865",
+        "isFollowing": true
+    },
+    {
+        "name": "Winston Churchill",
+        "username": "VictoryChurchill",
+        "isFollowing": false
+    },
+    {
+        "name": "Charles Darwin",
+        "username": "EvolutionDarwin",
+        "isFollowing": true
+    },
+    {
+        "name": "Pablo Picasso",
+        "username": "ArtisticPicasso",
+        "isFollowing": false
+    }
+]

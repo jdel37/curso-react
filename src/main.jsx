@@ -5,13 +5,9 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='grid grid-cols-3'>
+    <div className='grid grid-cols-1'>
     <App />
-    <App/>
-    <App />
-    <App/>
-    <App />
-    <App/>
+    
     
     
     </div>

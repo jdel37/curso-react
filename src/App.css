@@ -14,3 +14,44 @@ place-content: center;
   /* Add additional font formats if necessary */
   /* Specify the correct path to the font files */
 }
+.active{
+  @apply z-10 box-border bg-white  cursor-pointer m-auto text-black text-[15px] text-center font-bold py-1 h-[30px] px-[30px] rounded-full ml-[16px];
+}
+.active:hover
+{
+  @apply bg-blue-600
+}
+.siguiendo
+{
+ 
+    @apply z-10 box-border bg-white m-auto cursor-pointer   w-[8rem] text-black text-[15px] text-center font-bold py-1 h-[30px] px-[5px] rounded-full ml-[16px];
+  
+}
+.siguiendo:hover 
+{
+ background-color: rgb(255, 81, 81,0.082);
+ border: 1px solid rgb(255, 81, 81);
+ 
+}
+.siguiendo:hover .stopFollow
+{
+background-color: rgba(255, 81, 81, 0.014);
+color: rgb(255, 81, 81);
+  display: block;
+  
+}
+.siguiendo:hover .stopFollow2
+{
+  background-color: rgba(255, 53, 53, 0.082);
+  display: none;
+}
+
+.stopFollow {
+ 
+  display: none;
+}
+
+.siguiendo.stopFollow:hover 
+{
+  background-color: rgba(255, 53, 53, 0.082);
+}
